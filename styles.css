@@ -70,6 +70,62 @@ section {
     color: white; /* Sets all text in the #upload section to white */
     }
 }
+
+/* Key Features Section */
+#features {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.features-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.feature {
+    background: #fff;
+    padding: 20px;
+    margin: 20px;
+    max-width: 300px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.feature img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #007BFF;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Make the layout responsive */
+@media (max-width: 768px) {
+    .features-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 h1, h2 {
     color: #333;
 }
