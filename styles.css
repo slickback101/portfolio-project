@@ -66,6 +66,9 @@ section {
     margin: 20px;
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    #upload {
+    color: white; /* Sets all text in the #upload section to white */
+    }
 }
 h1, h2 {
     color: #333;
