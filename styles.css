@@ -1,7 +1,7 @@
 /* Cover Image Section */
 .cover-image {
     position: relative;
-    background-image: url('images/cover-image-Screenshot 2023-11-16 084028.png');
+    background-image: url('Screenshot 2023-11-16 084028.png');
     background-size: cover;
     background-position: center;
     height: 100vh; /* Full height of the viewport */
