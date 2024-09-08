@@ -1,30 +1,23 @@
-/* Body Background Color */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: skyblue; /* Change to sky blue */
-}
-
 /* Cover Image Section */
 .cover-image {
     position: relative;
-    background-image: url('https://images.unsplash.com/photo-1581349489359-1d2adf0037c6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+    background-image: url('https://getwallpapers.com/wallpaper/full/6/7/a/1486825-amazing-cool-moving-wallpapers-for-mac-1920x1080-for-1080p.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100vh; /* Full height of the viewport */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+/* Overlay for a dark filter on the cover image */
 .overlay {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5); /* Darkens the image */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,4 +48,50 @@ body {
 
 .cover-image .btn:hover {
     background-color: #0056b3;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
 }
