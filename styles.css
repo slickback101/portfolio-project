@@ -118,6 +118,88 @@ section {
     color: #555;
 }
 
+/* About Section */
+#about {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.about-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.project-story, .team-members, .github-repo {
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.project-story p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.team-members h3 {
+    margin-bottom: 20px;
+}
+
+.team-member {
+    margin-bottom: 20px;
+}
+
+.team-member h4 {
+    font-size: 1.4rem;
+    color: #007BFF;
+}
+
+.team-member ul {
+    list-style: none;
+    padding: 0;
+}
+
+.team-member ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.team-member ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.team-member ul li a:hover {
+    color: #007BFF;
+}
+
+.github-repo a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.github-repo a:hover {
+    text-decoration: underline;
+}
+
+/* Make the layout responsive */
+@media (max-width: 768px) {
+    .about-container {
+        padding: 0 20px;
+    }
+}
+
+
 /* Make the layout responsive */
 @media (max-width: 768px) {
     .features-container {
