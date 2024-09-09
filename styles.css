@@ -118,6 +118,32 @@ section {
     color: #555;
 }
 
+
+/* Make the layout responsive */
+@media (max-width: 768px) {
+    .features-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+h1, h2 {
+    color: #333;
+}
+.btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
 /* About Section */
 #about {
     padding: 50px 20px;
@@ -152,11 +178,22 @@ section {
 }
 
 .team-member {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .team-member h4 {
     font-size: 1.4rem;
+    margin-bottom: 10px;
     color: #007BFF;
 }
 
@@ -197,30 +234,9 @@ section {
     .about-container {
         padding: 0 20px;
     }
-}
 
-
-/* Make the layout responsive */
-@media (max-width: 768px) {
-    .features-container {
-        flex-direction: column;
-        align-items: center;
+    .team-member img {
+        width: 120px;
+        height: 120px;
     }
-}
-
-h1, h2 {
-    color: #333;
-}
-.btn {
-    background-color: #007BFF;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
 }
