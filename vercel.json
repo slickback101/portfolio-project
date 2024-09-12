@@ -6,14 +6,4 @@
     }
   ],
   "buildCommand": "gem install jekyll bundler && jekyll build"
-
-"routes": [
-  {
-    "src": "/",
-    "dest": "/"
-  },
-  {
-    "src": "/portfolio-project",
-    "dest": "/"
-  }
 }
