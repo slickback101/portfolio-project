@@ -7,3 +7,8 @@
   ],
   "buildCommand": "gem install jekyll bundler && jekyll build"
 }
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
